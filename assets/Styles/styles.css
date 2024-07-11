@@ -1,0 +1,20 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:white;
+  
+}
+
+.section-title {
+  margin-top: 20px;
+}
+
+#perfil{
+  height: 100%;
+  width: 100%; 
+  padding-bottom:22rem;
+  padding-top:1rem ;
+  background-color: darkcyan;
+}
+#perfil h1{
+  font-size: 4rem;
+}
