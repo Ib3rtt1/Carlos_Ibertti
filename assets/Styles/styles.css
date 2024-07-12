@@ -1,8 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color:white;
+  background-color:#E1E5E7 ;
   
 }
+/* paleta de colores
+.color-1 {color: #01b4fc;}
+.color-2 {color: #0dc0f4;}
+.color-3 {color: #0df4c3;}
+.color-4 {color: #0df4df;}
+.color-5 {color: #7f8c8d;}
+.color-6 {color: #00FFFF;} */
 
 .section-title {
   margin-top: 20px;
@@ -13,7 +20,7 @@ body {
   width: 100%; 
   padding-bottom:22rem;
   padding-top:1rem ;
-  background-color: darkcyan;
+  background-color: #01B4FC ;
 }
 #perfil h1{
   font-size: 4rem;
