@@ -1,27 +1,59 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color:#E1E5E7 ;
-  
 }
-/* paleta de colores
+paleta de colores
 .color-1 {color: #01b4fc;}
 .color-2 {color: #0dc0f4;}
 .color-3 {color: #0df4c3;}
-.color-4 {color: #0df4df;}
+.color-4 {color: #0df4e1cc;}
 .color-5 {color: #7f8c8d;}
-.color-6 {color: #00FFFF;} */
+.color-6 {color: #00FFFF;} 
 
-.section-title {
-  margin-top: 20px;
-}
-
+/* Barra de navegación  */
+/* Sección de perfil */
 #perfil{
   height: 100%;
   width: 100%; 
-  padding-bottom:22rem;
-  padding-top:1rem ;
+  padding-bottom:8rem;
+  padding-top:8rem ;
   background-color: #01B4FC ;
 }
 #perfil h1{
   font-size: 4rem;
 }
+#perfil img{
+  height:30rem ;
+  width: 30rem;
+  padding: 5rem;
+
+}
+/* seccion datos  */
+#DatosPersonales{
+  height:100% ;
+  width: 100%;
+  padding-bottom:1rem;
+  padding-top:1rem ;
+}
+
+/* Sección de experiencia laboral */
+#experiencia_laboral{
+  padding: 2rem;
+}  
+/* tarjeta  */
+.card {
+  position: relative; /* Necesario para la animación */
+  transition: transform 0.3s ease; /* Para animar el movimiento */
+}
+
+/* seccion actividades extras  */
+
+/* Sección tesis de inversion */
+
+/* Sección mis codigos  */
+
+/* Sección CVC y proyectos   */
+
+/* Sección del formulario de contacto */
+
+/* Pie de página  */

@@ -15,7 +15,7 @@
 </head>
 <body>
   <!-- Barra de navegación -->
-  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body text-white">
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body text-white fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">About me</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,10 @@
                     <a class="nav-link active text-white" aria-current="page" href="#experiencia_laboral">experiencia profesional</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Tesis de inversiones</a>
+                  <a class="nav-link text-white" href="#actividades">actividades complementarias</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../Carlos_Ibertti/tesis.html">Tesis de inversiones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Mis codigos</a>
@@ -39,67 +42,93 @@
         </div>
     </div>
   </nav>
-
   <!-- Sección de perfil -->
-  <section class=" " id="perfil">
-    <h1 class="col-12 my-2 ">Carlos Ibertti Vega </h1>
-    <h2 class="section-title col-12 my-2">SCOUT Y EMPRENDEDOR</h2>
-    <p class=" h-50 w-50 my-5 px-4">Ingeniero Comercial de la Universidad Austral de Chile 
-      con más de 5 años deexperiencia gestionando pequeñas y medianas empresas. 
-      Siempre estoycreando innovaciones para diversificar las fuentes de ingresos. 
-      Soy creativo yemprendedor con alta capacidad de resiliencia y perseverancia</p>
+  <section  >
+    <div class="container-fluid " id="perfil" >
+      <div class="row">
+        <div class="col-8">
+          <h1 class="col-12 my-2 ">Carlos Ibertti Vega </h1>
+          <h2 class="section-title col-12 my-2">SCOUT Y EMPRENDEDOR</h2>
+          <p class=" h-50 w-50 my-5 px-4">Ingeniero Comercial de la Universidad Austral de Chile 
+          con más de 5 años deexperiencia gestionando pequeñas y medianas empresas. 
+          Siempre estoycreando innovaciones para diversificar las fuentes de ingresos. 
+          Soy creativo yemprendedor con alta capacidad de resiliencia y perseverancia</p>
+        </div>
+        <div class="col-4 pe-4">
+          <img  src="assets/image/Carlos Ibertti Vega.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
   </section>
-  <!-- Sección de datos personales-->
-  <section class="container mt-2" >
-    <h3 >Contacto</h3>
-    <ul>
-      <li>carlosibertti@gmail.com</li>
-      <li>Cel: +56956913575</li>
-      <li><a href=" https://www.linkedin.com/in/carlos-ibertti/">carlos-ibertti</a> </li>
-      <li>Nontuela S/N comuna deFutrono región de los Rios </li>
-    </ul>
+  <!-- seccion datos  -->
+  <section>
+    <!-- Sección de datos personales-->
+    <div class="row">
+      <div class="col-6 card mb-3" ">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Contacto</h5>
+              <p class="card-text"> carlosibertti@gmail.com</p>
+              <p class="card-text"> Cel: +56956913575</p>
+              <p class="card-text"> <a href=" https://www.linkedin.com/in/carlos-ibertti/">carlos-ibertti</a></p>
+              <p class="card-text"> Nontuela S/N comuna deFutrono región de los Rios </p>
+            </div>
+          </div>
+        </div>
+      </div>    
+    <!--  formacion profesional-->
+      <div class="col-6 card mb-3" ">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Formacion profesional</h5>
+              <p> Ingeniería Comercial con distinción Universidad Austral de Chile (Valdivia)       </P>
+                <p>         ruby on rails impartido por talentodigital       </P>
+                <p>         Curso de venture capital impartido por dadneo y austral incuva       </P>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- idiomas -->
+        <div class="card mb-3 col-6" >
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Idiomas</h5>
+                  <p> Ingles-B1       </P>
+                  <p> español-nativo  </P>
+              </div>
+            </div>
+          </div>
+        </div>    
+        <!--  Software-->
+        <div class="card mb-3 col-6" >
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Software</h5>
+                <p class="card-text"> Microsoft Office</p>
+                <p class="card-text"> Excel</p>
+                <p class="card-text"> HTML-CCS-JS</p>
+                <p class="card-text"> SQL postgresql </p>
+                <p class="card-text"> Ruby on rails</p>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
   </section>
-  <!-- Sección de datos formacion profesional-->
-  <section class="container mt-2 " id="Formacion">
-    <h3>Formacion profesional</h3>
-      <p>
-          Ingeniería Comercial con distinción Universidad Austral de Chile (Valdivia)
-      </P>
-      <p>
-        ruby on rails impartido por talentodigital
-      </P>
-      <p>
-        Curso de venture capital impartido por dadneo y austral incuva 
-      </P>
-  </section>
-  <!-- Sección de Idiomas-->
-  <section class="container mt-2">
-    <h3>Idiomas</h3>
-      <p>
-          Ingles
-      </P>
-      <p>
-        español
-    </P>
-  </section>
-  <!-- Sección de Software-->
-  <section class="container mt-2">
-    <h3>Software</h3>
-    <ul>
-      <li> Microsoft Office</li>
-      <li>Excel</li>
-      <li>R</li>
-      <li> HTML-CCS-JS</li>
-      <li>SQL postgresql</li>
-      <li>Ruby on rails</li>
-    </ul>
-  </section>
-  
   <!-- Sección de experiencia laboral -->
-  <section class="container mt-2" id="experiencia_laboral">
-    <h2 class="section-title">Trayectoria  Laboral</h2>
+  <section class="container my-5 py-5" id="experiencia_laboral">
+    <h2 class="section-title py-2 ">Trayectoria  Laboral</h2>
     <!-- tarjeta -->
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3"  style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
           <!-- insertar imagen -->
@@ -112,7 +141,6 @@
             <p>Fundé y formalicé mi propia empresa dedicada a laelaboración de productos del bosque valdiviano, 
               gracias a un proyecto respaldado por el Fondo Regional Reactiva los Ríos.
               Destacando en habilidades como el trabajo en equipo y ladelegación de tareas.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -132,7 +160,6 @@
               aplicando rigurosos métodos de valoración de empresas. 
               Esta experiencia me permitió establecer relaciones enlos ecosistemas empresariales de Chile, Miami y Baden-Württemberg, 
               resaltando mis habilidades de comunicación y negociación. </p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -153,7 +180,6 @@
               Mi participación en esteproyecto me proporcionó un sólido conocimiento en el mundo del capital de riesgo 
               (venture capital)
               y fomentó mi habilidad para elpensamiento crítico y la búsqueda de datos. </p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -174,7 +200,6 @@
               <li> Analiza datos con programa R y Python</li>
               <li>Diversifica las fuentes de ingresos</li>
             </ul>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -195,7 +220,6 @@
               <li> Implementa base de datos</li>
               <li>  Gestiona los recursos financieros</li>
             </ul>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -213,7 +237,6 @@
             <b>Taller mecanico arebalo ( 2016 – 2017) </b> (2022)</b>
             <p>Ayuda en la reparacion y pintura de autos
               restaura carro bomba del año 1960 restaura wolkswagen año </p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -235,7 +258,6 @@
               <li> Construye KPIs y dashboards para la gestión y control</li>
               <li>   Supervisa  proyectos de construcción</li>
             </ul>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -255,7 +277,6 @@
               <li> Creacion de fondo rotativo </li>
               <li> toma de linea base de turismo comunitario  </li>
             </ul>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -271,8 +292,6 @@
           <div class="card-body">
             <h4 class="card-title"><a href="#">Cultivo y venta de grano  </a></h4>
             <b>independiente (2010-2014) </b>
-            <p> </p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -295,14 +314,56 @@
               Genera reportes financieros y administrativos
               a los socios
               Supervisa labores madereras en terreno </p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Sección de proyectos 
+  <!--seccion actividades extras  -->
+  <section class="container my-2 py-2" id="actividades">
+    <h5 class="card-title">Actividades Complementarias</h5>
+    <div class="card mb-3">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4><a href="#">Tesis </a></h4>
+        <b> modelos de ecuaciones de minder aplicados al trabajo </b>
+        <p class="card-text"> recolecta y sistematiza base de datos de distintas fuentes
+          crea modelo de ecuaciones usando programa
+          R con rstudio</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4><a href="#">Ayudantia </a></h4>
+        <b> Facea UACH ( 2013 –2020) </b>
+        <p class="card-text">Ayudantia para el ramo de introduccion de la economia
+          crea material de apoyo
+          clases con pruebas evaluadas</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4><a href="#">Remo </a></h4>
+        <b> (2009 –2011)(2015-2018) </b>
+        <p class="card-text">gana campeonato regional en categoria yola
+          apoya a su equipo en todos los apectos</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4><a href="#">Voluntario fundacion techo </a></h4>
+        <b> Techo ( 2013 –2017 ) </b>
+        <p class="card-text"> coordina grupo de accion en campamento geywits
+          coordina actividades de educacion
+          realiza reforzamientos psu
+          realiza actividades de emprendimieto</p>
+      </div>
+    </div>
+  </section>
+<!-- Sección tesis de inversion
   <section class="container mt-4">
     <h2 class="section-title">Mis Proyectos</h2>
     <ul>
@@ -311,39 +372,25 @@
       
     </ul>
   </section>--> 
-  <section class="container mt-2" id="actividades">
-    <h2>Actividades Complementarias </h2>
-    <div id=" ">
-      <h4><a href="#">Tesis </a></h4>
-      <b> modelos de ecuaciones de minder aplicados al trabajo </b>
-      <p> recolecta y sistematiza base de datos de distintas fuentes
-        crea modelo de ecuaciones usando programa
-        R con rstudio </p>
-    </div>
-    <div id=" ">
-      <h4><a href="#">Ayudantia </a></h4>
-      <b> Facea UACH ( 2013 –2020) </b>
-      <p>  Ayudantia para el ramo de introduccion de la economia
-        crea material de apoyo
-        clases con pruebas evaluadas </p>
-    </div>
-    <div id=" ">
-      <h4><a href="#"> Remo</a></h4>
-      <b>  (2009 –2011)(2015-2018) </b>
-      <p>  gana campeonato regional en categoria yola
-        apoya a su equipo en todos los apectos</p>
-    </div>
-    <div id=" ">
-      <h4><a href="#"> Voluntario fundacion techo </a></h4>
-      <b> Techo ( 2013 –2017 )  </b>
-      <p>  coordina grupo de accion en campamento geywits
-        coordina actividades de educacion
-        realiza reforzamientos psu
-        realiza actividades de emprendimieto</p>
-    </div>
-  </section>
-
-  <!-- Sección del formulario de contacto -->
+<!-- Sección mis codigos 
+  <section class="container mt-4">
+    <h2 class="section-title">Mis Proyectos</h2>
+    <ul>
+      <li>Proyecto 1: Descripción del proyecto 1.</li>
+      <li>Proyecto 2: Descripción del proyecto 2.</li>
+      
+    </ul>
+  </section>--> 
+<!-- Sección CVC y proyectos  
+  <section class="container mt-4">
+    <h2 class="section-title">Mis Proyectos</h2>
+    <ul>
+      <li>Proyecto 1: Descripción del proyecto 1.</li>
+      <li>Proyecto 2: Descripción del proyecto 2.</li>
+      
+    </ul>
+  </section>--> 
+<!-- Sección del formulario de contacto -->
   <section class="container mt-2">
     <h2 class="section-title">Formulario de Contacto</h2>
     <form>
@@ -362,7 +409,6 @@
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
   </section>
-
   <!-- Pie de página -->
   <footer class="footer mt-2 py-3">
     <div class="container">
@@ -371,8 +417,8 @@
   </footer>
 
   <!-- Enlace a Bootstrap JS y dependencias -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  
+  <script src="assets/JS/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
